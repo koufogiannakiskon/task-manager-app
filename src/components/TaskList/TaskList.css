@@ -1,0 +1,12 @@
+.task-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.task-column.left {
+  justify-self: start;
+}
+
+.task-column.right {
+  justify-self: end;
+}

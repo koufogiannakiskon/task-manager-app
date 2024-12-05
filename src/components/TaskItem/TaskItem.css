@@ -1,0 +1,97 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 100px;
+  width: 550px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+.task-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-title.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.edit-input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  resize: none;
+  margin-bottom: 0px;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.task-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-button {
+  background-color: #4998d4;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin: 0px;
+}
+
+.task-title input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.task-description {
+  max-width: 300px;
+  max-height: 150px; /* Set your desired max height */
+  overflow-y: auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}

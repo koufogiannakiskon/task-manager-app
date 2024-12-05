@@ -1,0 +1,32 @@
+.filter-tasks {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.filter-tasks button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.filter-tasks button.active {
+  background-color: #0a8312;
+  color: white;
+}
+
+.filter-tasks button:hover {
+  background-color: #ddd;
+}
+
+.search-input {
+  min-width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
